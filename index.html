@@ -10,21 +10,15 @@
     <body>
         <div class="container">
             <h1>Finances</h1>
-            <button id="#viewledger">View Ledger</button> 
-            <button id="#viewdebts">View Debts</button>
-            <button id="#viewgroceries">Edit Groceries</button>
-            <button id="calculate">Calculate Income and Expenses</button>
+            <button id="viewledger">View Ledger</button> 
+            <button id="viewdebts">View Debts</button>
+            <button id="groceriesbtn">Edit Groceries</button>
+            <button id="calculatebtn">Calculate Income and Expenses</button>
         </div>
 
         <div class="content container mt-4" id="ledger">
             <h4>Ledger</h4>
             <table class="table">
-                <tr>
-                    <th>Date</th>
-                    <th>Reason</th>
-                    <th>Amount</th>
-                    <th>Balance</th>
-                </tr>
                 <tr>
                     <td>Amount (Cash)</td>
                     <td></td>
@@ -39,6 +33,23 @@
                     <td>Amount (Savings)</td>
                     <td></td>
                     <td>$205.02</td>
+                </tr>
+            </table>
+            <button>Add Entry</button>
+            <table class="table">
+                <tr>
+                    <th>Date</th>
+                    <th>Reason</th>
+                    <th>Amount</th>
+                    <th>Method</th>
+                    <th>Balance</th>
+                </tr>
+                <tr>
+                    <td>Final Balance</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$1193.92</td>
                 </tr>
             </table>
         </div>
@@ -73,7 +84,15 @@
                     <td>$3865</td>
                 </tr>
             </table>
-            <button>Add Entry</button>
+            <button id="addentry_ledger">Add Entry</button>
+        </div>
+
+        <div class="content container mt-4" id="groceries">
+            <h4>Groceries</h4>
+        </div>
+
+        <div class="content container mt-4" id="calculate">
+            <h4>Calculate</h4>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
