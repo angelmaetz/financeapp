@@ -1,1 +1,4 @@
-Date, To Who?, Pay By, Why?
+Date, To Who?, Amount, Pay By, Why?
+7/2/24, 奶奶, 2722, N/A, College
+12/4/24, 
+5/31/24, Federal Govt, 4500, 2028, College
