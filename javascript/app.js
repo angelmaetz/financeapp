@@ -1,6 +1,13 @@
-const money_savings=205.02
-const money_checking=571.90
-const money_cash=471
+const savings=205.02
+const checking=571.90
+const cash=471
+const total_balance=savings+checking+cash
+const balance= checking + cash
+
+const groceries=document.querySelector("#groceries")
+const ledger=document.querySelector("#ledger")
+const debts=document.querySelector("#debts")
+const calculate=document.querySelector("#calculate")
 
 function hideAll(){
     options=["ledger","debts","groceries","calculate"]
